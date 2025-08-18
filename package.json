@@ -1,0 +1,53 @@
+{
+  "name": "ui-clone-cli",
+  "version": "1.0.0",
+  "description": "🎨 AI-powered CLI to perfectly clone website UIs - works like Claude/Gemini CLI",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "ui-clone": "./bin/cli.js",
+    "uic": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "dev": "node --watch bin/cli.js",
+    "test": "node test.js",
+    "setup": "node bin/cli.js setup",
+    "chat": "node bin/cli.js chat",
+    "clone": "node bin/cli.js clone"
+  },
+  "keywords": [
+    "ui-clone",
+    "website-clone",
+    "ai-cli",
+    "gemini",
+    "claude",
+    "automation",
+    "web-scraping",
+    "ui-replication"
+  ],
+  "author": "UI Clone CLI",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.11.0",
+    "chalk": "^5.6.0",
+    "cheerio": "^1.1.2",
+    "commander": "^14.0.0",
+    "fs-extra": "^11.3.1",
+    "groq-sdk": "^0.30.0",
+    "inquirer": "^12.9.3",
+    "mime-types": "^3.0.1",
+    "ora": "^8.2.0",
+    "puppeteer": "^24.16.2"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ]
+}
