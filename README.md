@@ -4,10 +4,6 @@
 
 Transform any website into optimized static code using advanced AI models (Groq API with GPT-OSS & DeepSeek).
 
-## 🎥 Demo Video
-
-[![UI Clone CLI Demo](https://img.shields.io/badge/▶️_Watch_Demo-YouTube-red?style=for-the-badge&logo=youtube)](https://youtu.be/1GWI_gsuErc)
-
 *See the UI Clone CLI in action*
 
 ## ✨ Features
